@@ -1,16 +1,18 @@
-*, *::before, *::after {
 
-box-sizing: border-box;
+container{
+box-sizing: content-box;
 }
+
 body {
     margin:auto;
 }
 
-.calculator-header{
-    align-items:center;
+.header{
+    margin-left:100px;
 }
 
 .calculator-grid{
+    margin:auto;
     display:grid;
     margin-top: 1rem;
     grid-template-columns: repeat(4, 8rem);

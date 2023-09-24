@@ -5,7 +5,9 @@ import "./styles.css";
 function App(){
   return (
     <div className="calculator-header">
+      <div className="header">
       <h1>Welcome to my-app</h1>
+      </div>
     <div className="calculator-grid">
       <div className="output" >
         <h1>0</h1>
