@@ -1,10 +1,51 @@
-const button {
-  border: none;
-  background-color: rgb(80, 60, 209);
-  font-size: 24px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 10px;
-  outline: none;
+.App {
+  text-align: center;
+  width: 500px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.CalcDisplay {
+  border: 1px solid black;
+  height: 40px;
+  font-size: 2em;
+  text-align: right;
+  padding:0 10px;
+  background:#000;
+  color:#fff;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex: 0 1 100%;
+    flex-wrap: wrap;
+}
+
+.CalcButton {
+    display: flex;
+    flex: 0 1 25%;
+    font-size: 2em;
+    justify-content: center;
 }
