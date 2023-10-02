@@ -97,7 +97,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="CalcContainer">
-        <h3>Calculator of Gino Viloria - CPE3A</h3> 
+        <h4>Calculator of Gino Viloria - CPE3A</h4> 
           
         <CalcDisplay display={disp} />
         <div className="ButtonContainer">
