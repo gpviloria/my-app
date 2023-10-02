@@ -97,7 +97,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="CalcContainer">
-        <h4>Calculator of Gino Viloria - CPE3A</h4>    
+        <h3>Calculator of Gino Viloria - CPE3A</h3> 
+          
         <CalcDisplay display={disp} />
         <div className="ButtonContainer">
           <CalcButton label={7} onClick={numberClickHandler} buttonClassName={"CalcButtonNum"}/>
